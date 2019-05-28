@@ -59,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		317913D4229D357100016D00 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				317913D3229D34FE00016D00 /* pixel.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		31DBC879229D28490091376A = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +88,7 @@
 		31DBC884229D28490091376A /* RayTracingInOneWeekend */ = {
 			isa = PBXGroup;
 			children = (
+				317913D4229D357100016D00 /* images */,
 				31DBC885229D28490091376A /* main.cpp */,
 			);
 			path = RayTracingInOneWeekend;
@@ -88,7 +97,6 @@
 		31DBC891229D286C0091376A /* Chapter 1: Output an image */ = {
 			isa = PBXGroup;
 			children = (
-				317913D3229D34FE00016D00 /* pixel.png */,
 				31DBC89A229D302B0091376A /* README.md */,
 				31DBC892229D286C0091376A /* main.cpp */,
 			);
