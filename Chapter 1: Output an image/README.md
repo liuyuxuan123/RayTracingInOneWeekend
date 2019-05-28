@@ -35,13 +35,14 @@ int main() {
 }
 
 ```
-
 ![](RayTracingInOneWeekend/images/pixel.png)
 `注意：`
-1. 像素以行从左到右的顺序写出。
-2. 行从上到下写出。
-3. 按照惯例，每个红色/绿色/蓝色分量范围从0.0到1.0。 我们会稍后我们在内部使用高动态范围时放松，但在输出之前我们会调整映射到零到一个范围，因此此代码不会更改。
-4. 红色从左到右从黑色到完全打开，绿色从黑色到达
-5. 在底部完全打开顶部。 红色和绿色一起变黄，所以我们应该期待
-右上角是黄色的
+1. The pixels are written out in rows with pixels left to right.
+2. The rows are written out from top to bottom.
+3. By convention, each of the `red/green/blue` components range from 0.0 to 1.0. We will
+relax that later when we internally use high dynamic range, but before output we will tone
+map to the zero to one range, so this code won’t change.
+4. Red goes from black to fully on from left to right, and green goes from black at the
+bottom to fully on at the top. Red and green together make yellow so we should expect
+the upper right corner to be yellow.
 
