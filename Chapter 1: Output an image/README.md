@@ -35,6 +35,7 @@ int main() {
 }
 
 ```
+
 ![](RayTracingInOneWeekend/images/pixel.png)
 `注意：`
 1. The pixels are written out in rows with pixels left to right.

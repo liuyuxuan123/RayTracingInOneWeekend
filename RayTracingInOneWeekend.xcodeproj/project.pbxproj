@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		317913DC229D3AF800016D00 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 317913DB229D3AF800016D00 /* main.cpp */; };
 		31DBC886229D28490091376A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31DBC885229D28490091376A /* main.cpp */; };
 		31DBC893229D286C0091376A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31DBC892229D286C0091376A /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		317913D7229D3AF800016D00 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		31DBC880229D28490091376A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -34,6 +44,8 @@
 
 /* Begin PBXFileReference section */
 		317913D3229D34FE00016D00 /* pixel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pixel.png; sourceTree = "<group>"; };
+		317913D9229D3AF800016D00 /* Chapter 2: The vec3 class */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Chapter 2: The vec3 class"; sourceTree = BUILT_PRODUCTS_DIR; };
+		317913DB229D3AF800016D00 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		31DBC882229D28490091376A /* RayTracingInOneWeekend */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RayTracingInOneWeekend; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DBC885229D28490091376A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		31DBC890229D286C0091376A /* Chapter 1: Output an image */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Chapter 1: Output an image"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +54,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		317913D6229D3AF800016D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		31DBC87F229D28490091376A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -67,11 +86,20 @@
 			path = images;
 			sourceTree = "<group>";
 		};
+		317913DA229D3AF800016D00 /* Chapter 2: The vec3 class */ = {
+			isa = PBXGroup;
+			children = (
+				317913DB229D3AF800016D00 /* main.cpp */,
+			);
+			path = "Chapter 2: The vec3 class";
+			sourceTree = "<group>";
+		};
 		31DBC879229D28490091376A = {
 			isa = PBXGroup;
 			children = (
 				31DBC884229D28490091376A /* RayTracingInOneWeekend */,
 				31DBC891229D286C0091376A /* Chapter 1: Output an image */,
+				317913DA229D3AF800016D00 /* Chapter 2: The vec3 class */,
 				31DBC883229D28490091376A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,6 +109,7 @@
 			children = (
 				31DBC882229D28490091376A /* RayTracingInOneWeekend */,
 				31DBC890229D286C0091376A /* Chapter 1: Output an image */,
+				317913D9229D3AF800016D00 /* Chapter 2: The vec3 class */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +135,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		317913D8229D3AF800016D00 /* Chapter 2: The vec3 class */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 317913DD229D3AF800016D00 /* Build configuration list for PBXNativeTarget "Chapter 2: The vec3 class" */;
+			buildPhases = (
+				317913D5229D3AF800016D00 /* Sources */,
+				317913D6229D3AF800016D00 /* Frameworks */,
+				317913D7229D3AF800016D00 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chapter 2: The vec3 class";
+			productName = "Chapter 2: The vec3 class";
+			productReference = 317913D9229D3AF800016D00 /* Chapter 2: The vec3 class */;
+			productType = "com.apple.product-type.tool";
+		};
 		31DBC881229D28490091376A /* RayTracingInOneWeekend */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31DBC889229D28490091376A /* Build configuration list for PBXNativeTarget "RayTracingInOneWeekend" */;
@@ -149,6 +195,9 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = yuxuanliu;
 				TargetAttributes = {
+					317913D8229D3AF800016D00 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					31DBC881229D28490091376A = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -171,11 +220,20 @@
 			targets = (
 				31DBC881229D28490091376A /* RayTracingInOneWeekend */,
 				31DBC88F229D286C0091376A /* Chapter 1: Output an image */,
+				317913D8229D3AF800016D00 /* Chapter 2: The vec3 class */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		317913D5229D3AF800016D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317913DC229D3AF800016D00 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		31DBC87E229D28490091376A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -195,6 +253,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		317913DE229D3AF800016D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P6TC657TC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		317913DF229D3AF800016D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P6TC657TC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		31DBC887229D28490091376A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -345,6 +421,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		317913DD229D3AF800016D00 /* Build configuration list for PBXNativeTarget "Chapter 2: The vec3 class" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				317913DE229D3AF800016D00 /* Debug */,
+				317913DF229D3AF800016D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		31DBC87D229D28490091376A /* Build configuration list for PBXProject "RayTracingInOneWeekend" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
