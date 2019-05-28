@@ -33,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		317913D3229D34FE00016D00 /* pixel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pixel.png; sourceTree = "<group>"; };
 		31DBC882229D28490091376A /* RayTracingInOneWeekend */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RayTracingInOneWeekend; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DBC885229D28490091376A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		31DBC890229D286C0091376A /* Chapter 1: Output an image */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Chapter 1: Output an image"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +88,7 @@
 		31DBC891229D286C0091376A /* Chapter 1: Output an image */ = {
 			isa = PBXGroup;
 			children = (
+				317913D3229D34FE00016D00 /* pixel.png */,
 				31DBC89A229D302B0091376A /* README.md */,
 				31DBC892229D286C0091376A /* main.cpp */,
 			);
