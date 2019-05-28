@@ -35,7 +35,7 @@ int main() {
 }
 
 ```
-
+![]("Chapter 1: Output an image/pixel.ppm")
 `注意：`
 1. 像素以行从左到右的顺序写出。
 2. 行从上到下写出。
