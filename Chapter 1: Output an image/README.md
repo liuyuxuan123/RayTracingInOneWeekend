@@ -33,10 +33,10 @@ int main() {
         }
     pixelFile.close();
 }
-
 ```
 
-![](RayTracingInOneWeekend/images/pixel.png)
+![](images/pixel.png)
+
 `注意：`
 1. The pixels are written out in rows with pixels left to right.
 2. The rows are written out from top to bottom.

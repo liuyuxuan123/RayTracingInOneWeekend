@@ -81,7 +81,6 @@
 		317913D4229D357100016D00 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				317913D3229D34FE00016D00 /* pixel.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -92,6 +91,14 @@
 				317913DB229D3AF800016D00 /* main.cpp */,
 			);
 			path = "Chapter 2: The vec3 class";
+			sourceTree = "<group>";
+		};
+		317913E0229D3B7B00016D00 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				317913D3229D34FE00016D00 /* pixel.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 		31DBC879229D28490091376A = {
@@ -126,6 +133,7 @@
 		31DBC891229D286C0091376A /* Chapter 1: Output an image */ = {
 			isa = PBXGroup;
 			children = (
+				317913E0229D3B7B00016D00 /* images */,
 				31DBC89A229D302B0091376A /* README.md */,
 				31DBC892229D286C0091376A /* main.cpp */,
 			);
